@@ -1,0 +1,451 @@
+/* -----------------------
+          SECTION 1
+  --------------------------*/
+
+.home-content {
+  position: relative;
+  -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+}
+
+.home-img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.titulo h1 {
+  font-family: var(--font-titulos);
+  font-size: 3rem;
+  text-align: center;
+  color: var(--bg-color-1);
+  margin: 0;
+}
+
+.titulo h2 {
+  font-family: var(--font-subtitulos);
+  font-size: 2.3rem;
+  text-align: center;
+  color: var(--bg-color-2);
+  font-weight: 200;
+  margin-top: -10px;
+}
+
+.frase {
+  font-family: var(--font-texto);
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--txt-body);
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+/* -----------------------
+          Musica
+  --------------------------*/
+.music-card {
+  margin: 0 auto;
+  background: var(--bg-color-1);
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  width: calc(100% - 60px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.album-art {
+  width: 100%;
+  height: 150px;
+  background: url("../assets/img/portada.jpg") center/cover no-repeat;
+  background-position: top;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.song-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.artist-name {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+.play-button {
+  background: white;
+  color: var(--bg-color-1);
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background 0.3s;
+}
+
+.play-button:hover {
+  background: #e6e6e6;
+}
+
+.progress-container {
+  background: rgba(255, 255, 255, 0.3);
+  height: 6px;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.progress {
+  background: white;
+  height: 100%;
+  width: 0%;
+}
+
+/* -----------------------
+          SECTION 3
+  --------------------------*/
+
+.section-info {
+  position: relative;
+}
+
+.overlay-section-info {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.overlay-section-info span {
+  width: 100%;
+  display: block;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.overlay-section-info span:nth-child(1) {
+  background-image: var(--img-overlay-stain-1);
+  height: 140px;
+  left: -199px;
+  top: -73px;
+}
+
+.overlay-section-info span:nth-child(2) {
+  background-image: var(--img-overlay-stain-2);
+  height: 140px;
+  right: -177px;
+  top: 243px;
+}
+
+.box-info {
+  padding: 2.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.info-primary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.info-primary h1 {
+  margin: 0;
+  font-size: xx-large;
+  font-family: var(--font-);
+  font-weight: 400;
+  text-align: center;
+  color: var(--bg-color-4);
+}
+
+.info-primary p {
+  text-align: center;
+}
+
+.info-secundary {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.info-secundary ul {
+  margin: 0;
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.4rem;
+}
+
+.info-content b {
+  color: var(--bg-color-4);
+}
+
+.section-date {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.date-info {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.date-info img {
+  display: block;
+  margin: 0 auto;
+}
+
+.date-text {
+  text-align: center;
+  width: 90%;
+}
+
+.date-box {
+  text-align: center;
+}
+
+.date-box h2 {
+  font-size: large;
+  color: var(--bg-color-4);
+}
+
+.date-box ul {
+  display: flex;
+  margin: 0;
+}
+
+.date-box ul li {
+  padding: 0 1rem;
+  font-size: medium;
+}
+
+.date-box ul li:nth-child(1) {
+  border-right: 1px solid var(--txt-body);
+}
+
+.date-box ul li:nth-child(2) {
+  font-size: xx-large;
+  font-weight: 800;
+  color: var(--bg-color-4);
+}
+
+.date-box ul li:nth-child(3) {
+  border-left: 1px solid var(--txt-body);
+}
+
+.date-time {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0;
+  text-align: center;
+  user-select: none;
+}
+
+.date-time li {
+  background-color: var(--bg-verde-opacity-50);
+  border-radius: 12px;
+  flex: 1;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.date-time .time_number {
+  font-size: x-large;
+  color: var(--white);
+}
+
+.date-time .time_txt {
+  text-align: center;
+  font-size: smaller;
+}
+
+.time_txt {
+  color: var(--white);
+}
+
+/* -----------------------
+          SECTION 4
+  --------------------------*/
+
+.section-place {
+  position: relative;
+  background-color: var(--bg-section-dark);
+}
+
+.overlay-section-place {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.box-place {
+  padding: 2.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  color: var(--white);
+  position: relative;
+  z-index: 2;
+}
+
+.place-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.place-info img {
+  display: block;
+  margin: 0 auto;
+}
+
+.place-info .place-txt {
+  width: 90%;
+}
+
+.place-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.place-txt h2 {
+  color: var(--bg-color);
+  font-size: large;
+}
+
+.place-btn {
+  background: var(--bg-color-4);
+  padding: 0.5rem 1.5rem;
+  border-radius: 1.5rem;
+  color: var(--txt-body);
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+}
+
+.section-place-salon {
+  position: relative;
+  background-color: var(--bg-section-light);
+  z-index: 0;
+}
+
+.box-place-salon {
+  padding: 2.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  color: var(--txt-body);
+  position: relative;
+  z-index: 2;
+}
+
+/* -----------------------
+          SECTION 5
+  --------------------------*/
+
+.section-galeria {
+  width: 100%;
+  min-height: 600px;
+  position: relative;
+  background-image: url(../assets/img/papel1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-info-adicional {
+  max-height: 600px;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  margin: 0 0 18px 0;
+}
+
+.clothes-txt h2 {
+  font-family: var(--font-subtitulos);
+  font-size: xx-large;
+  color: var(--white);
+  font-weight: 400;
+  margin: 12px 0 12px 0;
+}
+
+.clothes-txt p {
+  font-size: large;
+  padding: 0 15px;
+  color: var(--white);
+}
+
+.info-envelope {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: medium;
+}
+
+.info-envelope img {
+  display: block;
+}
+
+.info-envelope P {
+  font-size: large;
+  padding: 0 15px;
+  color: var(--white);
+}
+
+.info-envelope h2 {
+  font-family: var(--font-subtitulos);
+  font-size: xx-large;
+  color: var(--white);
+  font-weight: 400;
+  margin: 12px 0 12px 0;
+}
+
+/* -----------------------
+          FOOTER
+  --------------------------*/
+footer {
+  background-color: var(--bg-section-dark);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer a {
+  color: var(--bg-color-4);
+}
