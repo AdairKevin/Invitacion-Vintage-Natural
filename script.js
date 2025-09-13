@@ -61,4 +61,4 @@ audio.addEventListener("timeupdate", () => {
 audio.addEventListener("ended", () => {
   playPauseBtn.textContent = "▶";
   progressBar.style.width = "0%";
-});
+});               
