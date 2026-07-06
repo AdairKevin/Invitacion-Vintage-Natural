@@ -33,10 +33,10 @@ let countDown = new Date("Jun 25, 2025 17:00:00").getTime(),
   }, second);
 
 if (segundos == 0) {
-  (document.getElementById("dias").innerText = "00"),
+  ((document.getElementById("dias").innerText = "00"),
     (document.getElementById("horas").innerText = "00"),
     (document.getElementById("minutos").innerText = "00"),
-    (document.getElementById("segundos").innerText = "00");
+    (document.getElementById("segundos").innerText = "00"));
 }
 
 const audio = document.getElementById("audioPlayer");
@@ -61,4 +61,4 @@ audio.addEventListener("timeupdate", () => {
 audio.addEventListener("ended", () => {
   playPauseBtn.textContent = "▶";
   progressBar.style.width = "0%";
-});               
+});

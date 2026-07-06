@@ -14,7 +14,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-}                   
+}
 
 p {
   margin: 0;
@@ -26,4 +26,138 @@ ul {
   margin: 0;
   text-decoration: none;
   list-style-type: none;
+}
+
+/* -----------------------
+        CALENDARIO
+--------------------------*/
+
+.section-calendar {
+  display: flex;
+
+  justify-content: center;
+
+  padding: 2rem 1rem;
+}
+
+.calendar-box {
+  width: 100%;
+
+  max-width: 350px;
+
+  background: rgba(255, 255, 255, 0.35);
+
+  border-radius: 20px;
+
+  padding: 1.5rem;
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+
+  backdrop-filter: blur(5px);
+}
+
+.calendar-header {
+  text-align: center;
+}
+
+.calendar-header span {
+  font-size: 0.8rem;
+
+  letter-spacing: 4px;
+
+  color: var(--bg-color-4);
+}
+
+.calendar-header h2 {
+  font-family: var(--font-titulos);
+
+  font-weight: 400;
+
+  font-size: 2rem;
+
+  margin: 5px;
+
+  color: var(--txt-body);
+}
+
+.week,
+.days {
+  display: grid;
+
+  grid-template-columns: repeat(7, 1fr);
+
+  text-align: center;
+
+  gap: 0.5rem;
+}
+
+.week {
+  margin-top: 1.5rem;
+
+  color: var(--bg-color-4);
+
+  font-size: 0.8rem;
+}
+
+.days span {
+  height: 35px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  font-size: 0.9rem;
+
+  color: var(--txt-body);
+}
+
+.days .active {
+  background: var(--bg-color-4);
+
+  color: white;
+
+  border-radius: 50%;
+
+  font-weight: bold;
+
+  width: 35px;
+
+  height: 35px;
+
+  margin: auto;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.calendar-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  width: 90%;
+
+  margin-top: 1rem;
+
+  padding: 0.8rem 1rem;
+
+  border-radius: 30px;
+
+  background: var(--bg-gradient);
+
+  color: var(--txt-body);
+
+  font-weight: bold;
+
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.calendar-btn:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
