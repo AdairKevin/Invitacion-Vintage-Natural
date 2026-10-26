@@ -1,0 +1,147 @@
+{
+  "_instrucciones": "Aquí se cambian TODOS los textos, fotos, links y datos de la invitación. Cambia solo lo que está a la derecha de los dos puntos. Los textos aceptan <br /> para saltos de línea. Para ocultar un grupo agrega \"mostrar\": false dentro de él solo si la plantilla lo permite. La fecha de evento.inicio (AAAA-MM-DDTHH:MM) la usan la cuenta regresiva y el calendario.",
+  "pagina": {
+    "titulo": "Invitacion Vintage Natural"
+  },
+  "evento": {
+    "inicio": "2026-06-25T17:00",
+    "duracionHoras": 6,
+    "tituloCalendario": "XV Nyah Juarez",
+    "detallesCalendario": "Celebración de XV años de Nyah Juarez",
+    "lugarCalendario": "Parroquia de Nuestra Señora de Juquila"
+  },
+  "portada": {
+    "foto": "./assets/img/portada.jpg",
+    "fotoAlt": "photo"
+  },
+  "titulo": {
+    "evento": "Mis XV",
+    "nombre": "Nyah Juarez",
+    "frase": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, iure!"
+  },
+  "musica": {
+    "cancion": "Mi Canción",
+    "artista": "Artista Especial",
+    "archivo": "./assets/music/Carlos Rivera - Te Esperaba (LetraLyrics).mp3"
+  },
+  "invitacion": {
+    "nombre": "Nyah Juarez",
+    "frase": "Con amor, la bendición de Dios y el apoyo de mi familia, celebro este momento especial contigo.",
+    "familia": [
+      {
+        "titulo": "Mis Padres",
+        "nombre1": "Arturo Vázquez Rios",
+        "nombre2": "Patricia Rojas Arredondo"
+      },
+      {
+        "titulo": "Mis Padrinos",
+        "nombre1": "Roberto Vázquez Rivera",
+        "nombre2": "Clara Elizabeth Campos Trejo"
+      }
+    ],
+    "separador": "./assets/img/separador.png",
+    "separadorAlt": "rings",
+    "fraseFecha": "Estamos a pocos momentos de celebrar juntos esta gran alegría.",
+    "dia": "SÁBADO",
+    "mes": "JUN",
+    "diaNumero": "25",
+    "hora": "17:00",
+    "dias": "Días",
+    "horas": "Horas",
+    "minutos": "Minutos",
+    "segundos": "Segundos"
+  },
+  "calendario": {
+    "etiqueta": "MIS XV",
+    "diasSemana": "<span>L</span> <span>M</span> <span>M</span> <span>J</span> <span>V</span> <span>S</span> <span>D</span>",
+    "boton": "<span>＋</span> Agregar a mi calendario",
+    "meses": [
+      "ENERO",
+      "FEBRERO",
+      "MARZO",
+      "ABRIL",
+      "MAYO",
+      "JUNIO",
+      "JULIO",
+      "AGOSTO",
+      "SEPTIEMBRE",
+      "OCTUBRE",
+      "NOVIEMBRE",
+      "DICIEMBRE"
+    ]
+  },
+  "cronograma": {
+    "titulo": "Itinerario",
+    "descripcion": "Acompáñanos a vivir cada momento de esta celebración tan especial.",
+    "actividades": [
+      {
+        "icono": "./assets/icons/church.svg",
+        "iconoAlt": "ceremonia",
+        "hora": "05:00 PM",
+        "actividad": "Ceremonia",
+        "descripcion": "Daremos inicio a este día especial con la bendición de Dios."
+      },
+      {
+        "icono": "./assets/icons/mesa.svg",
+        "iconoAlt": "recepcion",
+        "hora": "07:00 PM",
+        "actividad": "Recepción",
+        "descripcion": "Recibiremos a nuestros invitados para compartir juntos este momento."
+      },
+      {
+        "icono": "./assets/icons/cake.svg",
+        "iconoAlt": "pastel",
+        "hora": "09:00 PM",
+        "actividad": "Momento Especial",
+        "descripcion": "Compartiremos una celebración llena de alegría y recuerdos."
+      },
+      {
+        "icono": "./assets/icons/music.svg",
+        "iconoAlt": "baile",
+        "hora": "10:00 PM",
+        "actividad": "Fiesta",
+        "descripcion": "Música, baile y mucha diversión para celebrar juntos."
+      }
+    ]
+  },
+  "ceremonia": {
+    "icono": "./assets/icons/church.svg",
+    "iconoAlt": "church",
+    "titulo": "Ceremonia",
+    "lugar": "Parroquia de Nuestra Señora de Juquila, Mochica entre Acoma, Americas ll",
+    "mapa": "#",
+    "boton": "VER UBICACIÓN"
+  },
+  "recepcion": {
+    "icono": "./assets/icons/bola.png",
+    "iconoAlt": "disco",
+    "titulo": "Fiesta",
+    "lugar": "poniente 6a manzana 21 lote 13 Colonia Alfredo baranda",
+    "mapa": "#",
+    "boton": "VER UBICACIÓN"
+  },
+  "infoAdicional": {
+    "iconoVestimenta": "./assets/icons/Clothes.svg",
+    "iconoVestimentaAlt": "clothes",
+    "vestimentaTitulo": "Vestimenta",
+    "vestimentaTexto": "La vestimenta es libre, ¡ven con lo que más te guste! Solo recuerda traer un cambio de ropa extra y todas las ganas para divertirte al máximo.",
+    "separador": "./assets/img/separador.png",
+    "separadorAlt": "separator",
+    "iconoRegalos": "./assets/icons/envelope.svg",
+    "iconoRegalosAlt": "envelope",
+    "regalosTitulo": "Mesa de regalos",
+    "regalosTexto": "Tu presencia es el mejor regalo, pero si deseas acompañarla con un detalle, será muy apreciado."
+  },
+  "confirmacion": {
+    "frase": "Los mejores momentos de la vida <br> merecen ser compartidos",
+    "agradecimiento": "¡Gracias por acompañarnos!",
+    "link": "#",
+    "boton": "Confirmar asistencia"
+  },
+  "footer": {
+    "texto": "Design by",
+    "link": "https://www.facebook.com/profile.php?id=61568997140138",
+    "marca": "Mirai",
+    "anio": "@2025"
+  }
+}
